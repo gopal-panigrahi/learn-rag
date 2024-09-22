@@ -5,7 +5,7 @@ from bot import get_bot
 st.set_page_config(layout="wide", page_title="Learn RAG", page_icon=":robot_face:")
 
 store = get_store()
-bot = get_bot()
+bot = get_bot(store)
 
 st.header("Car Expert - RAG", divider="rainbow")
 
